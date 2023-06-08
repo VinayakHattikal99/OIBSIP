@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="icon" href="images/bg.jpg">
+    <link rel="stylesheet" href="taskstyle.css" >
+    <script src="task.js"></script>
+</head>
+<body>
+  <section class="nav">
+    <div class="div1">
+      <nav>
+<h1>Temp!>re</h1>
+      </nav>
+    </div>
+ 
+    <div class="temperature-converter">
+        <h1 >Temperature Converter</h1>
+        <div class="input-container">
+          <input type="text" id="temperatureInput" placeholder="Enter temperature" />
+          <select id="unitSelect">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+          <button onclick="convertTemperature()">Convert</button>
+        </div>
+        <div class="result-container">
+          <h2 id="result1" ></h2>
+        </div>
+      </div>
+      </section>
+</body>
+</html>
